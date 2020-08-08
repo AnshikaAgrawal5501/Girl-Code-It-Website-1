@@ -151,7 +151,7 @@ ul
 }
 ul>li
 {
-    background-image: url("study.png");
+    background-image: url("logo/study.png");
     background-repeat: no-repeat;
     padding-left: 5%;
     width: 95%;
@@ -443,7 +443,7 @@ input[type=reset]:hover,input[type=submit]:hover
 }
 .mentor1
 {
-    background-image: url("9.jpg");
+    background-image: url("back/mentor.jpg");
     position: absolute;
     z-index: -100;
     background-size: 100%;
@@ -537,4 +537,69 @@ input[type=reset]:hover,input[type=submit]:hover
     margin: 10px auto;
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
+}
+#connect
+{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+.connect1
+{
+    background-image: url("back/connect.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -10;
+    opacity: 0.65;
+}
+.connect2
+{
+    width: 60%;
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+}
+.connect2>h1
+{
+    margin: 20px auto 10px auto;
+}
+.connect3
+{
+    margin: 40px auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.connect31
+{
+    width: 70%;
+    padding: 15%;
+}
+.connect31>a
+{
+    text-decoration: none;
+}
+.connect31>a>img
+{
+    width: 100%;
+    height: 100%;
+}
+footer
+{
+    background-image: url("back/footer.jpg");
+    width: 100%;
+    box-shadow: 0 0 10px black;
+}
+footer>p
+{
+    padding: 25px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 22px;
+    margin: 0px;
 }
