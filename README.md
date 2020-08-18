@@ -1,4 +1,5 @@
 <h1> Girl-Code-It-Website-1 </h1>
+<h2>Use of HTML and CSS only.</h2>
 <p>
 <i>Girl Code It</i> aka GCI is a collaborative effort to build a 
 healthy coding culture among young coders.
